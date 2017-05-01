@@ -1,0 +1,17 @@
+{
+  "name": "tabnavigation",
+  "description": "An angular application for Tab navigation using angular components",
+  "main": "index.js",
+  "authors": [
+    "Surajit.Rana"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "ngcomponents-tab-nav"
+  ],
+  "homepage": "",
+  "devDependencies": {
+    "bootstrap": "^3.3.7",
+    "angular": "^1.6.4"
+  }
+}
