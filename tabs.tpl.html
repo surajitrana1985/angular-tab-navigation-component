@@ -1,0 +1,10 @@
+<div class="tabs">
+    <ul class="tabs-list">
+        <li data-ng-repeat="tab in tabsCtrl.tabs" data-ng-class="{'tab-selected': tab.selected, 'tab-default': !tab.selected}">
+            <a href="" data-ng-bind="tab.label" data-ng-click="tabsCtrl.selectTab($index)"></a>
+        </li>
+    </ul>
+    <div class="tabs-content">
+        <div data-ng-transclude></div>
+    </div>
+</div>
