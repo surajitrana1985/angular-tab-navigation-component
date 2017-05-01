@@ -2,22 +2,34 @@
 <html lang="en">
 
 <head>
-    <titleApttus Assignment</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="style.css" rel="stylesheet">
-        <link rel="stylesheet" href="libs\bootstrap\dist\css\bootstrap.min.css">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <title>Morgan Stanley Assignment</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="libs\bootstrap\dist\css\bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
-        <script type="text/javascript" src="libs\jquery\dist\jquery.min.js"></script>
-        <script type="text/javascript" src="libs\bootstrap\dist\js\bootstrap.min.js"></script>
-        <script type="text/javascript" src="libs\angular\angular.min.js"></script>
-        <script type="text/javascript" src="app.js"></script>
+    <script type="text/javascript" src="libs\jquery\dist\jquery.min.js"></script>
+    <script type="text/javascript" src="libs\bootstrap\dist\js\bootstrap.min.js"></script>
+    <script type="text/javascript" src="libs\angular\angular.min.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+    <script type="text/javascript" src="tabs.component.js"></script>
+    <script type="text/javascript" src="tab.component.js"></script>
 </head>
 
-<body data-ng-app="myApp" data-ng-controller="treeController as treeCtrl">
+<body data-ng-app="tabApp">
     <div class="container">
-
+        <tabs>
+            <tab label="Tab 1">
+                <div class="tab-inner">Tab 1 Contents</div>
+            </tab>
+            <tab label="Tab 2">
+                <div class="tab-inner">Tab 2 Contents</div>
+            </tab>
+            <tab label="Tab 3">
+                <div class="tab-inner">Tab 3 Contents</div>
+            </tab>
+        </tabs>
     </div>
 </body>
 
